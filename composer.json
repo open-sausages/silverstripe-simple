@@ -12,11 +12,18 @@
     ],
     "require": {
         "composer/installers": "*",
-        "silverstripe/framework": ">=3.5"
+        "silverstripe/framework": ">=3.5",
+        "silverstripe/vendor-plugin": "^1.0"
     },
 	"extra": {
 		"branch-alias": {
 			"dev-master": "3.2.x-dev"
-		}
+		},
+        "expose": [
+            "css",
+            "images",
+            "javascript",
+            "webfonts"
+        ]
 	}
 }
